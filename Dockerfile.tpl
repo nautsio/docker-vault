@@ -1,7 +1,9 @@
 # Docker file to run Hashicorp Vault (vaultproject.io)
 
 FROM alpine:3.2
-MAINTAINER Stuart Wong <cgs.wong@gmail.com>
+# MAINTAINER Stuart Wong <cgs.wong@gmail.com>
+# change maintainter until pull
+MAINTAINER Bastiaan Bakker <bbakker@xebia.com>
 
 ENV VAULT_VERSION %%VERSION%%
 ENV VAULT_TMP /tmp/vault.zip
